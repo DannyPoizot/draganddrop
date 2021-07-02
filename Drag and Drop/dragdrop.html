@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="zxx" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/dragdrop.css">
+    <title>Drag And drop</title>
+  </head>
+  <body>
+    <h1>Bouger des éléments en Drag and drop</h1>
+      <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <img src="img/kebab.jpg" draggable="true" ondragstart="drag(event)" id="drag1" width="88" height="31">
+      </div>
+
+      <div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+      <script src="js/dragdrop.js" charset="utf-8"></script>
+  </body>
+</html>
